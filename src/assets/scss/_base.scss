@@ -1,8 +1,7 @@
-/*
-  colores
-*/
+@use 'variables' as *;
+
 body {
-  background: rgba(82, 0, 255, 0.7);
+  background: $lila;
 }
 
 main {
@@ -13,9 +12,3 @@ main {
   margin: 0 auto;
   background: white;
 }
-
-[role=list] {
-  text-decoration: none;
-}
-
-/*# sourceMappingURL=style.css.map */

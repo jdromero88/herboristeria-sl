@@ -8,17 +8,18 @@
     "url": "https://github.com/jdromero88/herboristeria-sl"
   },
   "scripts": {
+    "css-build-dart": "sass ./src/assets/scss/main.scss ./src/style.css",
     "css-build": "node-sass --omit-source-map-url ./src/assets/scss/main.scss ./src/style.css",
     "css-watch": "npm run css-build -- --watch",
     "css-start": "npm run css-watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "eleventy --watch --serve"
+    "start": "npm run css-build-dart && eleventy --watch --serve"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jose Romero",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "node-sass": "^4.14.1"
+    "sass": "^1.26.10"
   }
 }

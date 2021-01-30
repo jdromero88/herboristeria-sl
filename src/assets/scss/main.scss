@@ -1,14 +1,2 @@
-body {
-  background: #6256ee;
-}
-
-main {
-  box-sizing: border-box;
-  max-width: 1024px;
-  min-height: 100vh;
-  padding: 2em;
-  margin: 0 auto;
-  background: white;
-}
-
+@use 'base';
 @use 'header';
