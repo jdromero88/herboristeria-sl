@@ -2,7 +2,8 @@
   colores
 */
 body {
-  background: rgba(82, 0, 255, 0.7);
+  background: rgba(3, 3, 3, 0.77);
+  color: rgba(231, 140, 250, 0.9);
 }
 
 main {
