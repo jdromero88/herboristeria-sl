@@ -2,21 +2,28 @@
   colores
 */
 body {
-  background: rgba(3, 3, 3, 0.77);
   color: rgba(231, 140, 250, 0.9);
+  background: rgba(3, 3, 3, 0.77);
 }
 
 main {
   box-sizing: border-box;
   max-width: 1024px;
   min-height: 100vh;
-  padding: 2em;
   margin: 0 auto;
+  padding: 2em;
   background: white;
 }
 
+nav ul {
+  display: flex;
+}
+nav li {
+  margin: 0 1rem;
+}
+
 [role=list] {
-  text-decoration: none;
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */

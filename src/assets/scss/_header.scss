@@ -1,3 +1,13 @@
-[role="list"] {
-  text-decoration: none;
+nav {
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin: 0 1rem;
+  }
+}
+
+[role='list'] {
+  list-style: none;
 }

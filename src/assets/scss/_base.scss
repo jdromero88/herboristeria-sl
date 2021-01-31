@@ -1,15 +1,15 @@
 @use 'variables' as *;
 
 body {
-  background: $negro;
   color: $rosado;
+  background: $negro;
 }
 
 main {
   box-sizing: border-box;
   max-width: 1024px;
   min-height: 100vh;
-  padding: 2em;
   margin: 0 auto;
-  background: white;
+  padding: 2em;
+  background: $blanco;
 }
