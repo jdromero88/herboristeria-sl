@@ -19,7 +19,7 @@ nav ul {
   display: flex;
 }
 nav li {
-  margin: 0 1rem;
+  margin: 0 1.2rem;
 }
 
 [role=list] {
