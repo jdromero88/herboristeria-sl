@@ -1,0 +1,16 @@
+/* Variables */
+/*----------  Colors  ----------*/
+$color-white-100: rgba(255, 255, 255, 1);
+$color-black-100: rgba(0, 0, 0, 1);
+
+$color-primary-blue-100: rgba(6, 42, 60, 1);
+$color-primary-blue-200: rgba(7, 52, 74, .2);
+$color-primary-blue-300: rgba(7, 52, 74, .3);
+
+h1 {
+  color: $color-primary-blue-200;
+}
+
+h2 {
+  color: $color-primary-blue-300;
+}
