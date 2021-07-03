@@ -1,3 +1,5 @@
+@import 'normalize';
+
 /* Variables */
 /*----------  Colors  ----------*/
 $color-white-100: rgba(255, 255, 255, 1);
@@ -77,6 +79,7 @@ nav {
     margin-left: 1rem;
     padding: .5rem;
     background-color: $color-primary-green-100;
+    border-radius: .3rem;
   }
 
   & a {
